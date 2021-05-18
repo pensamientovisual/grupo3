@@ -3,14 +3,13 @@ $(document).ready(function(){
   
     comunas.mouseenter(function(){
       var idComuna = $(this).attr("id");
-      $("#titulo").text(idComuna);
+      $("#nombrecomuna").text(idComuna);
       
     });
   
     comunas.mouseleave(function(){
-    $("#titulo").text("NOMBRE COMUNA");
-      $(this).fadeTo("fast",1);
+    $("#nombrecomuna").text("NOMBRE COMUNA");
     });
-  
+    
   
   });

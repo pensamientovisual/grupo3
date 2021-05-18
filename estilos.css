@@ -1,11 +1,11 @@
 #titulopagina {
     background-color: #5e8d84;
-    height: 80px;
+    height: 100px;
     text-align: center;
-    color: white;
-    font-size: 25px;
+    color: #bcdfd5;
+    font-size: 35px;
     font-style: bold; 
-    font-family:'Gill Sans', Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: grey 1px;
 
 }
@@ -13,34 +13,153 @@
     background-color: #5e8d84;
     height: 30px;
     text-align: center;
-    color: white;
-    font-size: 20px;
+    color: #bcdfd5;
+    font-size: 18px;
     font-style: bold; 
-    font-family:Arial, Helvetica, sans-serif;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#titulo{
+#boton{
+    background: #5e8d84;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Bold;
+    color:#545351;
+    position: absolute;
+    top: 256px;
+    left: 450px;
+}
+
+#nombrecomuna{
+    font-size: 20px;
+    background-color: #5e8d84;
+    font-weight:520;
+    width: 200px;
+    height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #bcdfd5;
+    text-align: center;
+    position: relative;
+    right: -700px;
+}
+#comparacion{
     font-size: 20px;
     background-color: #5e8d84;
     width: 200px;
-    height: 60px;
-    font-family:Arial, Helvetica, sans-serif;
-    color: white;
+    height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #bcdfd5;
     text-align: center;
+    position:relative;
+    left: 20px;
 }
-
+.linea {
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    top: 30px;
+}
+.enlinea{
+    display: inline-block;
+    padding: 5px;
+}
 #general {
     float: right;
     width: 800px;
     margin: 1px 1px 1px;
+    position:absolute;
+    top: 200px;
+    right: 0px;
 
-}
-#titulo {
-    position: relative;
-    right: -900px;
 }
 
 .comuna:hover{
-    filter: saturate(300%);
+    filter: opacity(30%);
+}
+*{
+    margin:0;
+    padding:0;
+}
+#nav{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 400px;
+    margin: 0 auto;
+    position:absolute;
+    top: 250px;
+    list-style-type: none;  
+    left:130px;
+}
+ul{
+    list-style: none;
+}
+#menu li>a{
+    background-color: #5e8d84;
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px; 
+    padding: 10px;
+    display: block;
+    min-width: 100px;
+    top:100%
 
+}
+#menu li>a:hover{
+    color:#cccbc7;
+    background-color: #36726a; 
+}
+#menu>li{
+    float: left;
+    text-align: center;
+}
+#menu>li>ul{
+    display:none;
+}
+#menu>li:hover>ul{
+    display:block;
+}
+
+
+
+i{
+    position: relative;
+    left: 55px;
+}
+
+body{
+    background-color: #bcdfd5 ;
+}
+
+.ddimgtooltip{
+    box-shadow: 3px 3px 5px #818181; /*shadow for CSS3 capable browsers.*/
+    -webkit-box-shadow: 3px 3px 5px #818181;
+    -moz-box-shadow: 3px 3px 5px #818181;
+    display:none;
+    position:absolute;
+    border:1px solid black;
+    background:white;
+    color: black;
+    z-index:2000;
+    padding: 4px;
+}
+#imagen{
+    position: relative;
+    float: right;
+    right: 40px;
+}
+#Condes rel{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#mostrar{
+    visibility:hidden
+}
+
+  
+#chart {
+    max-width: 870px;
+    margin: 30px auto;
+  }
+
+#grafico{
+    position:absolute;
+    left:10px;
 }

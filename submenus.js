@@ -50,3 +50,4 @@ function ocultar() {
     oculta=this.getElementsByTagName("div")[0];
     oculta.style.display="none"
     }
+
