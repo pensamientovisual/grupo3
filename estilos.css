@@ -24,7 +24,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Bold;
     color:#545351;
     position: absolute;
-    top: 256px;
+    top: 276px;
     left: 450px;
 }
 
@@ -39,6 +39,28 @@
     text-align: center;
     position: relative;
     right: -700px;
+}
+#aclaracion1{
+    font-size:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#5e8d84;
+    float: right;
+    position: absolute;
+    width: 400px;
+    top: 220px;
+    left: 20px;
+}
+#aclaracion2{
+    font-size:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#5e8d84;
+    float: left;
+    position: absolute;
+    width: 300px;
+    top: 220px;
+    right: 190px;
+    text-align: center;
+
 }
 #comparacion{
     font-size: 20px;
@@ -66,7 +88,7 @@
     width: 800px;
     margin: 1px 1px 1px;
     position:absolute;
-    top: 200px;
+    top: 220px;
     right: 0px;
 
 }
@@ -84,7 +106,7 @@
     width: 400px;
     margin: 0 auto;
     position:absolute;
-    top: 250px;
+    top: 270px;
     list-style-type: none;  
     left:130px;
 }
@@ -135,22 +157,20 @@ body{
     display:none;
     position:absolute;
     border:1px solid black;
-    background:white;
-    color: black;
+    background:rgb(240, 235, 235);
+    color: grey;
     z-index:2000;
     padding: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #imagen{
-    position: relative;
+    position: absolute;
     float: right;
     right: 40px;
+    top: 600px;
 }
 #Condes rel{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
-#mostrar{
-    visibility:hidden
 }
 
   
@@ -162,4 +182,30 @@ body{
 #grafico{
     position:absolute;
     left:10px;
+    
 }
+#fondo{
+    background-color: transparent;
+    position: absolute;
+    top: 200px;
+    width: 600px;
+    height: 400px;
+}
+#azul{
+    display:none;
+    background-color: transparent;
+    position: absolute;
+    top: 200px;
+    width: 600px;
+    height: 400px;
+}
+#rojo{
+    display:none;
+    background-color: transparent;
+    position: absolute;
+    top: 200px;
+    width: 600px;
+    height: 400px;
+}
+
+

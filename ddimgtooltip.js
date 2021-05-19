@@ -13,10 +13,10 @@ var ddimgtooltip={
 		//For desc parameter, backslash any special characters inside your text such as apotrophes ('). Example: "I\'m the king of the world"
 		//For CSS object, follow the syntax: {property1:"cssvalue1", property2:"cssvalue2", etc}
 
-		tooltips[0]=["","Casos Activos: 14.219 <br /> Pacientes críticos: xxxx  <br /> Población en situación de pobreza: 590 <br /> Defunciones: 540  <br /> Plan paso a paso: Fase 2 <br/> Población vacunada 2º dosis: 504.738", {background:"#FFFFFF", color:"black", border:"2px grey", width: "260", height: "160"}]
-		tooltips[1]=["","Casos Activos: 25.703 <br /> Pacientes críticos: xxxx  <br /> Población en situación de pobreza: 28.323 <br /> Defunciones: 626  <br /> Plan paso a paso: Fase 1 <br/> Población vacunada 2º dosis: 422.465", {background:"#FFFFFF", color:"black", border:"2px grey", width: "260", height: "160"}]
-		tooltips[2]=["","Casos Activos: 53.853 <br /> Pacientes críticos: xxxx  <br /> Población en situación de pobreza: 41.472 <br /> Defunciones: 1.213  <br /> Plan paso a paso: Fase 1 <br/> Población vacunada 2º dosis: 810.767", {background:"#FFFFFF", color:"black", border:"2px grey", width: "260", height: "160"}]
-		tooltips[3]=["","Casos Activos: 7.024 <br /> Pacientes críticos: xxxx  <br /> Población en situación de pobreza: 2.963 <br /> Defunciones: 133  <br /> Plan paso a paso: Fase 2 <br/> Población vacunada 2º dosis: 183.585", {background:"#FFFFFF", color:"black", border:"2px grey", width: "260", height: "160"}]
+		tooltips[0]=["","Casos Activos: 14.219 <br /> Población en situación de pobreza: 590 <br /> Defunciones: 540  <br /> Plan paso a paso: Fase 2 <br/> Población vacunada 2º dosis: 504.738", {background:"#FFFFFF", color:"black", border:"2px grey", width: "260", height: "140"}]
+		tooltips[1]=["","Casos Activos: 25.703 <br /> Población en situación de pobreza: 28.323 <br /> Defunciones: 626  <br /> Plan paso a paso: Fase 1 <br/> Población vacunada 2º dosis: 422.465", {background:"#FFFFFF", color:"black", border:"2px grey", width: "260", height: "140"}]
+		tooltips[2]=["","Casos Activos: 53.853 <br /> Población en situación de pobreza: 41.472 <br /> Defunciones: 1.213  <br /> Plan paso a paso: Fase 1 <br/> Población vacunada 2º dosis: 810.767", {background:"#FFFFFF", color:"black", border:"2px grey", width: "260", height: "140"}]
+		tooltips[3]=["","Casos Activos: 7.024 <br /> Población en situación de pobreza: 2.963 <br /> Defunciones: 133  <br /> Plan paso a paso: Fase 2 <br/> Población vacunada 2º dosis: 183.585", {background:"#FFFFFF", color:"black", border:"2px grey", width: "260", height: "140"}]
 
 		return tooltips //do not remove/change this line
 	}(),
