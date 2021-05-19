@@ -11,21 +11,27 @@ $(document).ready(function(){
     $("#nombrecomuna").text("NOMBRE COMUNA");
     });
 
-    var boton1 = $(".boton-comuna-1")
-    var boton2 = $(".boton-comuna-2")
+    var boton1 = $(".cerrillos")
+    var boton2 = $(".cerronavia")
+    var boton3 = $(".conchali")
+    var boton4 = $(".elbosque")
+    var boton5 = $(".estacioncentral")
+    var boton6 = $(".huechuraba")
     var limpiar = $("#boton")
-
+    
     boton1.click(function(){
-        $("#azul").css("display","block")
+      $("#gcerrillos").css("display","block");
+    
     });
 
     boton2.click(function(){
-      $("#rojo").css("display","block")
+      $("#gcerronavia").css("display","block");
     });
 
+
     limpiar.click(function(){
-      $("#rojo").css("display","none")
-      $("#azul").css("display","none")
+      $("#gcerrillos").css("display","none")
+      $("#gcerronavia").css("display","none")
     });
 
     const svg = d3.select("#jajnjan")

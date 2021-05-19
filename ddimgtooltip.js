@@ -17,7 +17,7 @@ var ddimgtooltip={
 		tooltips[1]=["","Casos Activos: 25.703 <br /> Población en situación de pobreza: 28.323 <br /> Defunciones: 626  <br /> Plan paso a paso: Fase 1 <br/> Población vacunada 2º dosis: 422.465", {background:"#FFFFFF", color:"black", border:"2px grey", width: "260", height: "140"}]
 		tooltips[2]=["","Casos Activos: 53.853 <br /> Población en situación de pobreza: 41.472 <br /> Defunciones: 1.213  <br /> Plan paso a paso: Fase 1 <br/> Población vacunada 2º dosis: 810.767", {background:"#FFFFFF", color:"black", border:"2px grey", width: "260", height: "140"}]
 		tooltips[3]=["","Casos Activos: 7.024 <br /> Población en situación de pobreza: 2.963 <br /> Defunciones: 133  <br /> Plan paso a paso: Fase 2 <br/> Población vacunada 2º dosis: 183.585", {background:"#FFFFFF", color:"black", border:"2px grey", width: "260", height: "140"}]
-
+		tooltips[4]=["","HOLA", {background:"#FFFFFF", color:"black", border:"2px grey", width: "100", height: "140"}]
 		return tooltips //do not remove/change this line
 	}(),
 
