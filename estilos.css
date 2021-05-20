@@ -49,7 +49,7 @@
     color:#5e8d84;
     float: right;
     position: absolute;
-    width: 400px;
+    width: 650px;
     top: 220px;
     left: 20px;
 }
@@ -144,12 +144,6 @@ ul{
     display:block;
 }
 
-
-i{
-    position: relative;
-    left: 55px;
-}
-
 body{
     background-color: #bcdfd5 ;
 }
@@ -241,7 +235,7 @@ button:hover{
     left: 30px;
     height: 150px; 
     width: 150px;
-    top: 880px;
+    top: 930px;
     background-color: #36726a;
 }
 
@@ -250,13 +244,13 @@ button:hover{
     left: 200px;
     height: 200px; 
     width: 200px;
-    top: 900px;
+    top: 950px;
 }
 #circulo3{
     left: 450px;
     height: 150px; 
     width: 150px;
-    top: 880px;
+    top: 930px;
     background-color: #36726a;
     
 }
@@ -264,7 +258,7 @@ button:hover{
     left: 620px;
     height: 200px; 
     width: 200px;
-    top: 900px;
+    top: 950px;
 }
 
 #texto1{
@@ -274,8 +268,9 @@ button:hover{
     float: left;
     position: absolute;
     width: 720px;
-    top: 690px;
+    top: 740px;
     left: 30px;
+    text-align:justify;
 }
 #texto2{
     font-size:30px;
@@ -283,14 +278,15 @@ button:hover{
     color:#36726a;
     float: left;
     position: absolute;
-    width: 800px;
-    top: 740px;
+    width: 720px;
+    top: 790px;
     left: 30px;
     font-weight: bold;
+    
 }
 #nombre1{
     position: absolute;
-    top: 1040px;
+    top: 1090px;
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#36726a;
@@ -298,7 +294,7 @@ button:hover{
 }
 #nombre3{
     position: absolute;
-    top: 1040px;
+    top: 1090px;
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#36726a;
@@ -306,7 +302,7 @@ button:hover{
 }
 #nombre2{
     position: absolute;
-    top: 1110px;
+    top: 1160px;
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#36726a;
@@ -314,7 +310,7 @@ button:hover{
 }
 #nombre4{
     position: absolute;
-    top: 1110px;
+    top: 1160px;
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#36726a;
@@ -323,7 +319,7 @@ button:hover{
 }
 #nombre5{
     position: absolute;
-    top: 830px;
+    top: 880px;
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#5e8d84;
@@ -332,7 +328,7 @@ button:hover{
 }
 #nombre6{
     position: absolute;
-    top: 830px;
+    top: 880px;
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:#5e8d84;
@@ -343,7 +339,7 @@ button:hover{
     color: #bcdfd5;
     font-size:50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    top: 920px;
+    top: 970px;
     left: 60px;
     position:absolute;
 }
@@ -378,7 +374,7 @@ button:hover{
     color: #bcdfd5;
     font-size:65px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    top: 55px;
+    top: 60px;
     left: 15px;
     position:absolute;
 }
@@ -392,6 +388,6 @@ button:hover{
     float: left;
     position: absolute;
     width: 720px;
-    top: 1140px;
+    top: 1190px;
     left: 30px;
 }
