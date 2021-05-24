@@ -1,6 +1,6 @@
 
 #titulopagina {
-    background-color: #5e8d84;
+    background-color: #76b2af;
     height: 100px;
     text-align: center;
     color: #bcdfd5;
@@ -12,16 +12,16 @@
 
 }
 #subtitulo {
-    background-color: #5e8d84;
+    background-color: #76b2af;
     height: 30px;
     text-align: center;
-    color: #bcdfd5;
+    color: #c7dcd3 ;
     font-size: 18px;
     font-style: bold; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #boton{
-    background: #5e8d84;
+    background: #76b2af;
     font-size: 24px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Bold;
     color:#545351;
@@ -29,52 +29,67 @@
     top: 276px;
     left: 450px;
     z-index: 4;
+    border-radius: 20px;
+    display:none;
 }
-
+button:hover{
+    cursor:pointer;
+}
 #nombrecomuna{
     font-size: 20px;
-    background-color: #5e8d84;
+    background-color: #76b2af;
     font-weight:520;
-    width: 200px;
+    width: 400px;
     height: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #bcdfd5;
     text-align: center;
-    position: relative;
-    right: -700px;
+    position: absolute;
+    right: 15px;
+    top: 150px;
+    border-radius: 20px;
+    padding: 5px;
 }
 #aclaracion1{
     font-size:15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#5e8d84;
+    color:#015d57;
     float: right;
     position: absolute;
     width: 650px;
-    top: 220px;
-    left: 20px;
+    top: 960px;
+    left: 360px;
+
 }
 #aclaracion2{
     font-size:15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#5e8d84;
+    color:#015d57;
     float: left;
     position: absolute;
-    width: 300px;
+    width: 400px;
     top: 220px;
-    right: 190px;
-    text-align: center;
+    right: 30px;
+    text-align: right;
 
 }
 #comparacion{
     font-size: 20px;
-    background-color: #5e8d84;
-    width: 200px;
+    background-color: #015d5f;
+    width: 400px;
     height: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     color: #bcdfd5;
     text-align: center;
-    position:relative;
-    left: 20px;
+    position:absolute;
+    top:900px;
+    left: 420px;
+    border-radius: 20px;
+    padding: 5px;
+    text-decoration: none;
+}
+#comparacion:hover{
+    cursor:hand;
 }
 .linea {
     display: inline-block;
@@ -91,7 +106,7 @@
     width: 800px;
     margin: 1px 1px 1px;
     position:absolute;
-    top: 220px;
+    top: 250px;
     right: 0px;
     z-index: 1;
 
@@ -114,28 +129,33 @@
     list-style-type: none;  
     left:130px;
     z-index: 3;
+    display:none;
 }
 ul{
     list-style: none;
+    display:none;
 }
 #menu li>a{
-    background-color: #5e8d84;
+    background-color: #76b2af;
     color: white;
     text-decoration: none;
     margin: 0px 5px; 
     padding: 10px;
     display: block;
     min-width: 100px;
-    top:100%
+    top:100%;
+    display:none;
 
 }
 #menu li>a:hover{
     color:#cccbc7;
-    background-color: #36726a; 
+    background-color: #36726a;
+    display:none;
 }
 #menu>li{
     float: left;
     text-align: center;
+    display:none;
 }
 #menu>li>ul{
     display:none;
@@ -145,11 +165,11 @@ ul{
 }
 
 body{
-    background-color: #bcdfd5 ;
+    background-color: #c7dcd3 ;
 }
 
 button{
-    background-color: #5e8d84;
+    background-color:  #76b2af;
     color: white;
     text-decoration: none;
     margin: 0px 5px; 
@@ -160,10 +180,13 @@ button{
     outline:none;
     box-shadow: none;
     border-color: transparent;
+    cursor:hand;
+    border-radius: 20px;
 }
 button:hover{
     color:#cccbc7;
-    background-color: #36726a; 
+    background-color:  #76b2af; 
+    cursor:hand;
 }
 .ddimgtooltip{
     box-shadow: 3px 3px 5px #818181; /*shadow for CSS3 capable browsers.*/
@@ -177,6 +200,7 @@ button:hover{
     z-index:2000;
     padding: 4px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5%;
 }
 #imagen{
     position: absolute;
@@ -184,10 +208,9 @@ button:hover{
     right: 10px;
     top: 600px;
     background-color: transparent;
+    display:none;
 }
-#Condes rel{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
+
 
   
 #chart {
@@ -207,6 +230,7 @@ button:hover{
     width: 600px;
     height: 400px;
     z-index: 2;
+    display:none;
 }
 #gcerrillos{
     display:none;
@@ -215,6 +239,7 @@ button:hover{
     top: 160px;
     width: 600px;
     height: 400px;
+    display:none;
 }
 
 #gcerronavia{
@@ -224,47 +249,49 @@ button:hover{
     top: 160px;
     width: 600px;
     height: 400px;
+    display:none;
 }
 .circulo{
-    background: #5e8d84; 
+    background:  #76b2af; 
     border-radius: 50%; 
     position: absolute;
     display: inline-block;
 }
 #circulo1{
-    left: 30px;
+    left: 120px;
     height: 150px; 
     width: 150px;
     top: 930px;
-    background-color: #36726a;
+    background-color: #015d57;
 }
 
-
 #circulo2{
-    left: 200px;
+    left: 95px;
     height: 200px; 
     width: 200px;
-    top: 950px;
+    top: 1150px;
+    background: #76b2af;
 }
 #circulo3{
     left: 450px;
     height: 150px; 
     width: 150px;
     top: 930px;
-    background-color: #36726a;
+    background-color: #015d57;
     
 }
 #circulo4{
-    left: 620px;
+    left: 425px;
     height: 200px; 
     width: 200px;
-    top: 950px;
+    top: 1150px;
+    background: #76b2af;
 }
 
 #texto1{
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#5e8d84;
+    color:#015d57;
     float: left;
     position: absolute;
     width: 720px;
@@ -275,7 +302,7 @@ button:hover{
 #texto2{
     font-size:30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#36726a;
+    color:#015d57;
     float: left;
     position: absolute;
     width: 720px;
@@ -289,32 +316,36 @@ button:hover{
     top: 1090px;
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#36726a;
-    left:50px;
+    color:#015d57;
+    left:155px;
+    width: 200px;
 }
 #nombre3{
     position: absolute;
     top: 1090px;
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#36726a;
-    left:470px;
+    color:#015d57;
+    left:485px;
+    width: 200px;
 }
 #nombre2{
     position: absolute;
-    top: 1160px;
+    top: 1360px;
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#36726a;
-    left:240px;
+    color:#015d57;
+    left:140px;
+    width: 200px;
 }
 #nombre4{
     position: absolute;
-    top: 1160px;
+    top: 1360px;
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#36726a;
-    left:670px;
+    color:#015d57;
+    left:480px;
+    width: 200px;
 
 }
 #nombre5{
@@ -322,28 +353,31 @@ button:hover{
     top: 880px;
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#5e8d84;
+    color: #015d57;
     left:50px;
     font-weight: bold;
+    width: 400px;
 }
+
 #nombre6{
     position: absolute;
     top: 880px;
     font-size:20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#5e8d84;
-    left:570px;
+    color:#015d57;
+    left: 460px;
     font-weight: bold;
+    width: 200px;
 }
-#LCpob{
+#Vpob{
     color: #bcdfd5;
     font-size:50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     top: 970px;
-    left: 60px;
+    left: 150px;
     position:absolute;
 }
-#SBpob{
+#PApob{
     color: #bcdfd5;
     font-size:65px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -352,25 +386,25 @@ button:hover{
     position:absolute;
     
 }
-#LCpob:hover{
+#Vpob:hover{
     color: white;
 }
-#SBpob:hover{
+#PApob:hover{
     color: white;
 }
-#LCcas{
+#Vcas{
     color: #bcdfd5;
     font-size:50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     top: 45px;
-    left: 7px;
+    left: 20px;
     position:absolute;
 
 }
-#LCcas:hover{
+#Vcas:hover{
     color: white;
 }
-#SBcas{
+#PAcas{
     color: #bcdfd5;
     font-size:65px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -378,16 +412,26 @@ button:hover{
     left: 15px;
     position:absolute;
 }
-#SBcas:hover{
+#PAcas:hover{
     color: white;
 }
 #nombre7{
     font-size:15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#5e8d84;
+    color:#015d57;
     float: left;
     position: absolute;
-    width: 720px;
-    top: 1190px;
+    width: 900px;
+    top: 1400px;
     left: 30px;
+}
+#colFilter_div{
+    background-color:white;
+}
+#chart_div{
+    background-color: white;
+}
+#auxiliar{
+    position:absolute;
+    top: -580px;
 }

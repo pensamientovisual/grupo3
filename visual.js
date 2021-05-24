@@ -8,7 +8,7 @@ $(document).ready(function(){
     });
   
     comunas.mouseleave(function(){
-    $("#nombrecomuna").text("NOMBRE COMUNA");
+    $("#nombrecomuna").text("¿CUÁL ES TU COMUNA DE INTERÉS?");
     });
 
     var boton1 = $(".cerrillos")
@@ -34,37 +34,9 @@ $(document).ready(function(){
       $("#gcerronavia").css("display","none")
     });
 
-    const svg = d3.select("#jajnjan")
-              .append("svg")
-              .attr("width", 600)
-              .attr("height", 600);
 
-    svg.append("g").attr("id", "linea-comuna-1")
-    svg.append("g").attr("id", "linea-comuna-2")       
 
-    // Funcion para graficar datos
-  function graficarDatos1(datos) { 
-    svg.select("#linea-comuna-1")
-      .selectAll("rect")
-      .data(datos)
-      .join("rect")
-      .attr("width", 50)
-      .attr("fill", "magenta")
-      .attr("height", (d) => d.frecuencia)
-      .attr("height", function(d) {return d.frecuencia})
-      .attr("x", (_, i) => 50 + i * 100);
-}
 
-function graficarDatos2(datos) { 
-  svg.select("#linea-comuna-2")
-    .selectAll("rect")
-    .data(datos)
-    .join("rect")
-    .attr("width", 50)
-    .attr("fill", "magenta")
-    .attr("height", (d) => d.frecuencia)
-    .attr("height", function(d) {return d.frecuencia})
-    .attr("x", (_, i) => 50 + i * 100);
-}
+
  
   });
