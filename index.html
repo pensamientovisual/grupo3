@@ -8,17 +8,22 @@
 	<script type="text/javascript" src="d3.js"></script>
 	<script type="text/javascript" src="visual.js"></script>
 	<script type="text/javascript" src="ddimgtooltip.js"></script>
+	<script type="text/javascript" src="qqqqqqqqqqqqqqqqqq (2).html"></script>
 	<script src="https://d3js.org/d3.v6.min.js"></script>
 	<script type="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
 
 </head>
 <header>
-	<h1 id="titulopagina"> <br> ¿CÓMO HA AFECTADO EL COVID-19 A CADA COMUNA? </h1>
+	<div id="titulopagina"> <br> ¿CÓMO HA AFECTADO EL COVID-19 A CADA COMUNA? </div>
 	<p id="subtitulo"> Impacto socioeconómico según casos activos, vacunación y situación de pobreza en comunas de provincia de santiago y cordillera hasta el 7 de mayo 2021 </p>
 </header>
 <body>
+	<div id="relleno"> </div>
 	<a id="comparacion" class="linea" href="qqqqqqqqqqqqqqqqqq (2).html"> <p> ¿TE GUSTARÍA COMPARAR COMUNAS? </p> </a>
-	<div id="nombrecomuna" class="linea"> <p> ¿CUÁL ES TU COMUNA DE INTERÉS? </p> </div>
+	<div id="nombrecomuna" class="linea"> <p> COMUNA</p> </div>
 	<p id="aclaracion1"> Presione el botón para desplegar un gráfico que permitirá comparar dos o más comunas. </p>
 	<p id="aclaracion2"> Desliza sobre las comunas para desplegar su respectiva información. Los casos corresponden a los acomulados hasta la fecha desde el inicio de la pandemia </p>
 	<div id="nav" class="enlinea">
@@ -376,8 +381,9 @@
 	</div>
 	<div id="auxiliar"> 
 		<div id="texto1"> <p> A partir de los datos obtenidos, se compara la comuna con mayor cantidad de población en situación de pobreza con la de menor cantidad, junto a sus respectivos casos totales </p></div>
-		<div id="texto2"> <p> A la fecha, San Bernardo es la comuna con la mayor cantidad y Vitacura con la menor </p></div>
+		<div id="texto2"> <p> A la fecha, Puente Alto es la comuna con la mayor cantidad y Vitacura con la menor </p></div>
 		<div id="pelotitas1">
+			<p id="nombre5"> Población en situación de pobreza </p>
 			<div class="circulo" id="circulo1"> </div>
 			<div id="Vpob"> <p>0,1%</p></div>
 			<div class="circulo"id="circulo2"><p id="PApob"> 7,3% </p> </div>
@@ -385,13 +391,12 @@
 			<p id="nombre2"> Puente Alto</p>
 		</div>
 		<div id="pelotitas2">
+			<p id="nombre6"> Casos totales </p>
 			<div class="circulo"id="circulo3"><p id="Vcas"> 3.902 </p> </div>
 			<div class="circulo"id="circulo4"><p id="PAcas"> 53.853 </p> </div>
 			<p id="nombre3"> Vitacura </p>
 			<p id="nombre4"> Puente Alto</p>
 		</div>
-		<p id="nombre5"> Población en situación de pobreza </p>
-		<p id="nombre6"> Casos totales </p>
 		<p id="nombre7"> *porcentajes respecto a población comunal </p>
 	</div>
 

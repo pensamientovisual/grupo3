@@ -8,7 +8,7 @@ $(document).ready(function(){
     });
   
     comunas.mouseleave(function(){
-    $("#nombrecomuna").text("¿CUÁL ES TU COMUNA DE INTERÉS?");
+    $("#nombrecomuna").text("COMUNA");
     });
 
     var boton1 = $(".cerrillos")
