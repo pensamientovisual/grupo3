@@ -453,3 +453,23 @@ button:hover{
     cursor:hand;
     border-radius: 20px;
 }
+#limpiar{
+    background-color: #015d57;
+    color: #bcdfd5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0px 5px; 
+    padding: 10px;
+    display: block;
+    width: 300px;
+    top:100%;
+    outline:none;
+    box-shadow: none;
+    border-color: transparent;
+    cursor:hand;
+    border-radius: 20px;
+    position: absolute;
+    top: 500px;
+}
