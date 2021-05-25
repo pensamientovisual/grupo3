@@ -184,18 +184,12 @@ function drawChart () {
         dataTable: data,
         options: {
             title: 'Evolucion de casos covid Region Metropolitana',
-            width: 700,
-            height: 500,
-            colors: ['#003431', '#005c56', '#009288', '#31beb5', '#80c2bf','#b2bfbe','#9bd6d3'],
-            chartArea: {
-                backgroundColor: {
-                    fill: "#bcdfd5"}
-                }
+            width: 600,
+            height: 400,
+            backgroundColor: "#bcdfd5",
             
-            
-            
+            colors: ['#003431', '#005c56', '#009288', '#31beb5', '#80c2bf','#b2bfbe','#9bd6d3']
         },
-        
     });
     
     var columnFilter = new google.visualization.ControlWrapper({
