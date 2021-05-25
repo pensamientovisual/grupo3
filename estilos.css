@@ -464,14 +464,13 @@ button:hover{
     padding: 10px;
     display: block;
     width: 300px;
-    top:100%;
     outline:none;
     box-shadow: none;
     border-color: transparent;
     cursor:hand;
     border-radius: 20px;
     position: absolute;
-    top: 500px;
+    top: 600px;
 }
 #chart_div{
     background-color: #bcdfd5;

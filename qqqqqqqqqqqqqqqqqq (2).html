@@ -166,6 +166,7 @@ function drawChart () {
     [116, 5971, 12812, 11100, 14541, 12949, 7233, 11204, 7199, 30156, 12346, 18851, 5088, 13986, 6891, 8301, 9754, 2321, 10031, 33140, 12447, 5352, 8640, 22296, 7226, 20707, 51754, 16477, 11677, 14504, 17666, 24662, 9536, 1283, 11199, 8110, 31694, 3806], 
     [117, 6048, 13041, 11219, 14834, 13124, 7303, 11305, 7332, 30613, 12533, 19147, 5147, 14078, 6944, 8384, 9893, 2350, 10177, 33573, 12563, 5425, 8784, 22663, 7305, 21019, 52690, 16684, 11840, 14669, 17931, 25071, 9679, 1302, 11350, 8186, 32093, 3849], 
     [118, 6129, 13357, 11394, 15170, 13354, 7434, 11461, 7477, 31206, 12750, 19543, 5214, 14219, 7024, 8520, 10104, 2394, 10355, 34198, 12729, 5537, 9010, 23138, 7378, 21390, 53853, 16983, 12050, 14908, 18276, 25703, 9887, 1325, 11545, 8345, 32608, 3902]
+
 ]);
 
     var columnsTable = new google.visualization.DataTable();
@@ -178,14 +179,20 @@ function drawChart () {
     }
 
     var chart = new google.visualization.ChartWrapper({
-        chartType: 'Line',
+        chartType: 'LineChart',
         containerId: 'chart_div',
         dataTable: data,
         options: {
             title: 'Evolucion de casos covid Region Metropolitana',
-            width: 600,
-            height: 400,
-            colors: ['#003431', '#005c56', '#009288', '#31beb5', '#80c2bf','#b2bfbe','#9bd6d3']
+            width: 700,
+            height: 500,
+            colors: ['#003431', '#005c56', '#009288', '#31beb5', '#80c2bf','#b2bfbe','#9bd6d3'],
+            chartArea: {
+                backgroundColor: {
+                    fill: "#bcdfd5"}
+                }
+            
+            
             
         },
         
@@ -197,6 +204,8 @@ function drawChart () {
         dataTable: columnsTable,
         options: {
             filterColumnLabel: 'colLabel',
+            width: 600,
+            height: 100,
             ui: {
                 label: 'Comunas',
                 allowTyping: true,
@@ -204,6 +213,7 @@ function drawChart () {
                 allowNone: false,
                 selectedValuesLayout: 'below'
             }
+            
         },
         'state': {'selectedValues': ['Santiago']}
     });
