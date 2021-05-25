@@ -473,3 +473,9 @@ button:hover{
     position: absolute;
     top: 500px;
 }
+#chart_div{
+    background-color: #bcdfd5;
+}
+#colFilter_div{
+    background-color: #bcdfd5;
+}
