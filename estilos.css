@@ -429,6 +429,7 @@ button:hover{
     top: 1150px;
     left:50px;
     z-index: 2;
+    width: 750px;
 }
 #wrapper{
     width: 100%;
@@ -471,6 +472,7 @@ button:hover{
     top: 10px;
     left: 10px;
     width: 200px;
+    line-height: 23px;
 }
 #Capa_3{
     width: 20px;
@@ -500,7 +502,7 @@ button:hover{
 #conclusion2{
     width: 240px;
     border-radius: 20px;
-    height: 280px;
+    height: 295px;
     border:3px;
     position: absolute;
     top: 1400px;
@@ -518,6 +520,7 @@ button:hover{
     top: 10px;
     left: 10px;
     width: 220px;
+    line-height: 23px;
 }
 #Capa_5{
     width: 20px;
@@ -550,7 +553,7 @@ button:hover{
 #conclusion3{
     width: 240px;
     border-radius: 20px;
-    height: 330px;
+    height: 345px;
     border:3px;
     position: absolute;
     top: 1400px;
@@ -568,6 +571,7 @@ button:hover{
     top: 10px;
     left: 10px;
     width: 220px;
+    line-height: 23px;
 }
 
 #Capa_7{
