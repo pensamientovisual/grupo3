@@ -434,4 +434,167 @@ button:hover{
     width: 100%;
 }
 
+.st0{
+    fill: #015d57;
 
+}
+.st1{
+    fill: #c7dcd3;
+    
+}
+#conclusion{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top:1200px;
+    right:550px;
+    cursor: pointer;
+}
+
+#conclusion1{
+    width: 240px;
+    border-radius: 20px;
+    height: 250px;
+    position: absolute;
+    top: 1400px;
+    border: 3px solid #015d57;
+    right: 500px;
+    display:none;
+    z-index: 1;  
+    background-color: #e2ebe1;
+}
+#parrafo1{
+    color:#504f4d ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+}
+#Capa_3{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+    left: 210px;
+    cursor: pointer;
+    fill: #015d57;
+}
+#vacuna{
+    height: 410px;
+    width: 410px;
+    position: absolute;
+    top:1050px;
+    right:180px;
+    cursor: pointer;
+}
+.st4{
+    fill: #015d57;
+
+}
+.st3{
+    fill: #c7dcd3;
+}
+
+#conclusion2{
+    width: 240px;
+    border-radius: 20px;
+    height: 280px;
+    border:3px;
+    position: absolute;
+    top: 1400px;
+    border: 3px solid #015d57;
+    right: 253px;
+    display:none;
+    z-index: 1;
+    background-color: #e2ebe1;
+}
+#parrafo2{
+    color:#504f4d ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 220px;
+}
+#Capa_5{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+    left: 210px;
+    cursor: pointer;
+    fill: #015d57;
+}
+
+#pobreza{
+    height: 165px;
+    width: 165px;
+    position: absolute;
+    top:1190px;
+    right:50px;
+    cursor: pointer;
+}
+
+.st6{
+    fill: #015d57;
+
+}
+
+.st7{
+    fill: #c7dcd3;
+    
+}
+#conclusion3{
+    width: 240px;
+    border-radius: 20px;
+    height: 330px;
+    border:3px;
+    position: absolute;
+    top: 1400px;
+    border: 3px solid #015d57;
+    right: 5px;
+    display:none;
+    z-index: 1;
+    background-color: #e2ebe1;
+}
+#parrafo3{
+    color:#504f4d ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 220px;
+}
+
+#Capa_7{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+    left: 210px;
+    cursor: pointer;
+    fill: #015d57;
+}
+
+#tituloconclusion{
+    color:#015d55;
+    position:absolute;
+    font-size: 30px;
+    top:1150px;
+    right: 250px;
+    font-style: bold; 
+    font-family: 'Bebas Neue', cursive;
+}
+
+#tituloconclusion1{
+    color:#015d55;
+    position:absolute;
+    font-size: 15px;
+    top:1190px;
+    right: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
