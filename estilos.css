@@ -430,6 +430,7 @@ button:hover{
     left:50px;
     z-index: 2;
     width: 750px;
+    z-index: 2;
 }
 #wrapper{
     width: 100%;
@@ -450,6 +451,7 @@ button:hover{
     top:1200px;
     right:550px;
     cursor: pointer;
+    z-index: 3;
 }
 
 #conclusion1{
